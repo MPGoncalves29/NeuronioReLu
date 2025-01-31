@@ -11,8 +11,8 @@ int main(){
 
     Neuronio* four = new NeuronioReLu({-3, -2.2, -1, 1, 12}, -3);
 
-    cout << one->predict({0.3, 3, -1}) << endl;
-    cout << two->predict({-3, 2.2, 2, -1.3}) << endl;
-    cout << three->predict({-2.9, 4, 0.2, -2}) << endl;
-    cout << four->predict({5.8, 0.1, -1.8, 9, -9.9}) << endl;
+    cout << "Saída do primeiro neurônio: " << one->predict({0.3, 3, -1}) << endl;
+    cout << "Saída do segundo neurônio: " << two->predict({-3, 2.2, 2, -1.3}) << endl;
+    cout << "Saída do terceiro neurônio: " << three->predict({-2.9, 4, 0.2, -2}) << endl;
+    cout << "Saída do quarto neurônio: " << four->predict({5.8, 0.1, -1.8, 9, -9.9}) << endl;
 }
